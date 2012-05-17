@@ -1,0 +1,17 @@
+site:
+    title: Aiaraldea Komunikazio Leihoa
+    description: Aiaraldea Komunikazio Leihoa
+    author: Aiaraldea Komunikazio Leihoa
+    pretty_urls: false
+    
+smartypants:
+    enable: true
+
+baker:
+    skip_patterns:
+        - /^index.php/
+    config_variants:
+        default:
+            site:
+                root: http://denokduguintxaurbatpoltsikoan.com/site/
+
